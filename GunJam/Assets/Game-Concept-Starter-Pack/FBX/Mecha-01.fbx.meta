@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: b6def89c5aa3e184e9b385814f21fed4
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Character-Mecha
+    100002: Chest
+    100004: Head
+    100006: HeadTop
+    100008: Hips
+    100010: LeftArm
+    100012: LeftFoot
+    100014: LeftForeArm
+    100016: LeftHand
+    100018: LeftHandMiddle1
+    100020: LeftLeg
+    100022: LeftShoulder
+    100024: LeftToes
+    100026: LeftTop
+    100028: LeftUpLeg
+    100030: Mecha
+    100032: //RootNode
+    100034: Neck
+    100036: Null
+    100038: RightArm
+    100040: RightFoot
+    100042: RightForeArm
+    100044: RightHand
+    100046: RightHandMiddle1
+    100048: RightLeg
+    100050: RightShoulder
+    100052: RightToes
+    100054: RightTop
+    100056: RightUpLeg
+    100058: Spine
+    100060: Character_Mecha
+    100062: Mecha_01
+    400000: Character-Mecha
+    400002: Chest
+    400004: Head
+    400006: HeadTop
+    400008: Hips
+    400010: LeftArm
+    400012: LeftFoot
+    400014: LeftForeArm
+    400016: LeftHand
+    400018: LeftHandMiddle1
+    400020: LeftLeg
+    400022: LeftShoulder
+    400024: LeftToes
+    400026: LeftTop
+    400028: LeftUpLeg
+    400030: Mecha
+    400032: //RootNode
+    400034: Neck
+    400036: Null
+    400038: RightArm
+    400040: RightFoot
+    400042: RightForeArm
+    400044: RightHand
+    400046: RightHandMiddle1
+    400048: RightLeg
+    400050: RightShoulder
+    400052: RightToes
+    400054: RightTop
+    400056: RightUpLeg
+    400058: Spine
+    400060: Character_Mecha
+    400062: Mecha_01
+    4300000: Mecha
+    4300002: Mecha_01
+    7400000: Mecha-01-Walk-01
+    7400002: Mecha-01-Shoot-High-01
+    7400004: Mecha-01-Shoot-Low-01
+    7400006: Mecha-01-Break
+    9500000: //RootNode
+    13700000: Mecha
+    13700002: Mecha_01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Mecha-01-Shoot-Low-01
+      takeName: C4D Animation Take
+      firstFrame: 80
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Mecha
+        weight: 1
+      - path: Character_Mecha/Hips
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToes
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToes/LeftTop
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg/RightFoot/RightToes
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg/RightFoot/RightToes/RightTop
+        weight: 1
+      - path: Character_Mecha/Hips/Spine
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandMiddle1
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/Neck/Head/HeadTop
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand/RightHandMiddle1
+        weight: 1
+      - path: Mecha_01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Mecha-01-Break
+      takeName: C4D Animation Take
+      firstFrame: 100
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Mecha
+        weight: 1
+      - path: Character_Mecha/Hips
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToes
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToes/LeftTop
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg/RightFoot/RightToes
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg/RightFoot/RightToes/RightTop
+        weight: 1
+      - path: Character_Mecha/Hips/Spine
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandMiddle1
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/Neck/Head/HeadTop
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand/RightHandMiddle1
+        weight: 1
+      - path: Mecha_01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Mecha-01-Walk-01
+      takeName: C4D Animation Take
+      firstFrame: 10
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Mecha
+        weight: 1
+      - path: Character_Mecha/Hips
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToes
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToes/LeftTop
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg/RightFoot/RightToes
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg/RightFoot/RightToes/RightTop
+        weight: 1
+      - path: Character_Mecha/Hips/Spine
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandMiddle1
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/Neck/Head/HeadTop
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand/RightHandMiddle1
+        weight: 1
+      - path: Mecha_01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Mecha-01-Shoot-High-01
+      takeName: C4D Animation Take
+      firstFrame: 55
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character_Mecha
+        weight: 1
+      - path: Character_Mecha/Hips
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToes
+        weight: 1
+      - path: Character_Mecha/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToes/LeftTop
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg/RightFoot/RightToes
+        weight: 1
+      - path: Character_Mecha/Hips/RightUpLeg/RightLeg/RightFoot/RightToes/RightTop
+        weight: 1
+      - path: Character_Mecha/Hips/Spine
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandMiddle1
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/Neck/Head
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/Neck/Head/HeadTop
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Character_Mecha/Hips/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand/RightHandMiddle1
+        weight: 1
+      - path: Mecha_01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 0
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

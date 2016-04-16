@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: e508d4eac1db262479c3e350ef06a53f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Alien-01
+    100004: Alien-01-ClawL
+    100006: Alien-01-ClawR
+    100008: Alien_01
+    100010: Alien_01_Armature
+    100012: Base
+    100014: Chest
+    100016: ClawL_01
+    100018: ClawL_02
+    100020: ClawL_03
+    100022: ClawR_01
+    100024: ClawR_02
+    100026: ClawR_03
+    100028: Head_01
+    100030: Head_02
+    100032: Head_03
+    100034: Neck
+    100036: Tail_01
+    100038: Tail_02
+    100040: Tail_03
+    100042: Tail_04
+    400000: //RootNode
+    400002: Alien-01
+    400004: Alien-01-ClawL
+    400006: Alien-01-ClawR
+    400008: Alien_01
+    400010: Alien_01_Armature
+    400012: Base
+    400014: Chest
+    400016: ClawL_01
+    400018: ClawL_02
+    400020: ClawL_03
+    400022: ClawR_01
+    400024: ClawR_02
+    400026: ClawR_03
+    400028: Head_01
+    400030: Head_02
+    400032: Head_03
+    400034: Neck
+    400036: Tail_01
+    400038: Tail_02
+    400040: Tail_03
+    400042: Tail_04
+    2300000: Alien-01
+    2300002: Alien-01-ClawL
+    2300004: Alien-01-ClawR
+    3300000: Alien-01
+    3300002: Alien-01-ClawL
+    3300004: Alien-01-ClawR
+    4300000: Alien-01
+    4300002: Alien-01-ClawL
+    4300004: Alien-01-ClawR
+    4300006: Alien_01
+    7400000: Alien-01-Idle
+    7400002: Alien-01-Crawl
+    7400004: Alien-01-Attack
+    7400006: Alien-01-Block
+    7400008: Alien-01-Die
+    9500000: //RootNode
+    13700000: Alien_01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Alien-01-Idle
+      takeName: C4D Animation Take
+      firstFrame: 10
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alien_01
+        weight: 1
+      - path: Alien_01_Armature
+        weight: 1
+      - path: Alien_01_Armature/Base
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01/ClawL_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01/ClawL_02/ClawL_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01/ClawR_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01/ClawR_02/ClawR_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01/Head_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01/Head_02/Head_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02/Tail_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02/Tail_03/Tail_04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Alien-01-Crawl
+      takeName: C4D Animation Take
+      firstFrame: 45
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alien_01
+        weight: 1
+      - path: Alien_01_Armature
+        weight: 1
+      - path: Alien_01_Armature/Base
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01/ClawL_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01/ClawL_02/ClawL_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01/ClawR_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01/ClawR_02/ClawR_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01/Head_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01/Head_02/Head_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02/Tail_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02/Tail_03/Tail_04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Alien-01-Attack
+      takeName: C4D Animation Take
+      firstFrame: 75
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alien_01
+        weight: 1
+      - path: Alien_01_Armature
+        weight: 1
+      - path: Alien_01_Armature/Base
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01/ClawL_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01/ClawL_02/ClawL_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01/ClawR_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01/ClawR_02/ClawR_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01/Head_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01/Head_02/Head_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02/Tail_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02/Tail_03/Tail_04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Alien-01-Block
+      takeName: C4D Animation Take
+      firstFrame: 115
+      lastFrame: 127
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alien_01
+        weight: 1
+      - path: Alien_01_Armature
+        weight: 1
+      - path: Alien_01_Armature/Base
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01/ClawL_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01/ClawL_02/ClawL_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01/ClawR_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01/ClawR_02/ClawR_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01/Head_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01/Head_02/Head_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02/Tail_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02/Tail_03/Tail_04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Alien-01-Die
+      takeName: C4D Animation Take
+      firstFrame: 140
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Alien_01
+        weight: 1
+      - path: Alien_01_Armature
+        weight: 1
+      - path: Alien_01_Armature/Base
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01/ClawL_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawL_01/ClawL_02/ClawL_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01/ClawR_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/ClawR_01/ClawR_02/ClawR_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01/Head_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Chest/Neck/Head_01/Head_02/Head_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02/Tail_03
+        weight: 1
+      - path: Alien_01_Armature/Base/Tail_01/Tail_02/Tail_03/Tail_04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 0
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
