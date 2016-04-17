@@ -5,7 +5,8 @@ using IliumVR;
 [AddComponentMenu("Ilium VR/Basic Controller")]
 public class BasicController : MonoBehaviour
 {
-	private Client ivrClient;
+	public Client ivrClient;
+    public IliumRewired iliumRewired;
 	private GamePacket packet;
 	private FeedbackPacket feedback;
 
@@ -124,7 +125,14 @@ public class BasicController : MonoBehaviour
 
 		feedback.Vibration = 0;
 		feedback.VibrationTime = 0;
-
+        //iliumRewired.packet=(packet);
+        ButtonState b=packet.Buttons;
+        if(iliumRewired!=null){
+            iliumRewired.GetSourceButtonValues(b);
+            iliumRewired.GetSourceAxisValues(packet.Analog);    
+        }
+        
+        
 		//Gun firing
 		if (!triggered)
 		{
