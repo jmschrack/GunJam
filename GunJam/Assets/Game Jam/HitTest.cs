@@ -30,4 +30,12 @@ public class HitTest : MonoBehaviour {
         actor.TakeDamage(bullet.damage * dmgModifier);
         Destroy(collision.collider.gameObject);
     }
+
+    void OnParticleCollision(GameObject go)
+    {
+        Debug.Log("particle hit");
+        ParticleCollisionEvent[] events = new ParticleCollisionEvent[2];
+        ParticlePhysicsExtensions.GetCollisionEvents(go.GetComponent<ParticleSystem>(), this.gameObject, events);
+        hitReaction.Hit(GetComponent<Collider>(), events[0].normal * hitForce, events[0].intersection);
+    }
 }

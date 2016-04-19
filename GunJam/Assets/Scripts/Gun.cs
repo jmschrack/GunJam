@@ -69,7 +69,7 @@ public class Gun : MonoBehaviour
 
 		}
 
-		soundShot.Play();
+		//soundShot.Play();
 		BulletOrigin.GetComponent<ParticleSystem>().Play();
 		BulletOrigin.GetComponent<Light>().enabled = true;
 
@@ -85,11 +85,11 @@ public class Gun : MonoBehaviour
 
 	void OnIvrGunReloadStart()
 	{
-		soundChamberA.Play();
+		//soundChamberA.Play();
 	}
 
 	void OnIvrGunReloadEnd()
 	{
-		soundChamberB.Play();
+		//soundChamberB.Play();
 	}
 }
