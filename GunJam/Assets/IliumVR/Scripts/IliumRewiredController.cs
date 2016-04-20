@@ -135,7 +135,7 @@ public class IliumRewiredController : MonoBehaviour {
 		//Set rotation
 		IliumVR.Geometry.Quaternion ivrq = packet.Pose.Rotation;
 		Quaternion q = new Quaternion(-ivrq.W, ivrq.X, ivrq.Y, -ivrq.Z);
-		transform.rotation = q;
+		transform.localRotation = q;
         
         //GetSourceAxisValues(packet.Analog);
         //GetSourceButtonValues(packet.Buttons);
@@ -143,8 +143,8 @@ public class IliumRewiredController : MonoBehaviour {
 		//head yaw
 		feedback.HeadYaw = externalMovementSpace.rotation.eulerAngles.y;
         //TODO Remove this?
-		feedback.Vibration = 0;
-		feedback.VibrationTime = 0;
+		//feedback.Vibration = 0;
+		//feedback.VibrationTime = 0;
 		//ivrClient.SendFeedbackPacket(ref feedback);
 
 	}

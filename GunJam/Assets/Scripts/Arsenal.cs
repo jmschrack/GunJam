@@ -8,9 +8,11 @@ public class Arsenal : MonoBehaviour {
 	
     
     public void cycleWeapon(){
+        weapons[currentWeapon].deactivate();
         currentWeapon++;
         if(currentWeapon==weapons.Length)
             currentWeapon=0;
+        weapons[currentWeapon].activate();
     }
     
     public Weapon getCurrentWeapon(){

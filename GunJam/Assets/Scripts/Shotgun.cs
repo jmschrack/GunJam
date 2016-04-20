@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using Rewired;
 
@@ -7,6 +8,7 @@ public class Shotgun : Weapon {
     public int tube=8;
     public int currentAmmo;
     public ParticleSystem shot;
+    public Text guage;
 	// Use this for initialization
 	void Start () {
 	    currentAmmo=tube;
@@ -15,7 +17,12 @@ public class Shotgun : Weapon {
 	// Update is called once per frame
 	void Update () {
 	    handleInput();
+        updateUI();
 	}
+    void updateUI(){
+        string ammo=((!loaded)?"! ":"  ")+currentAmmo+"/"+tube;
+        guage.text=ammo;
+    }
     
     void handleInput(){
         if(PlayerControls.getPlayer().GetButtonDown("PullSlide")&&currentAmmo>0){

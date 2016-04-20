@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Rifle : Weapon {
@@ -8,6 +9,7 @@ public class Rifle : Weapon {
     public GameObject muzzleFlash;
     //penis joke
     private bool needsCocking; 
+    public Text guage;
 	// Use this for initialization
 	void Start () {
 	    currentAmmo=magazineSize;
@@ -17,7 +19,13 @@ public class Rifle : Weapon {
 	// Update is called once per frame
 	void Update () {
 	    handleInput();
+        updateUI();
 	}
+    
+    void updateUI(){
+        string ammo = (needsCocking?"! ":"  ")+currentAmmo+"/"+magazineSize;
+        guage.text=ammo;
+    }
     
     void handleInput(){
         if(PlayerControls.getPlayer().GetButtonDown("PullSlide")){
@@ -46,6 +54,7 @@ public class Rifle : Weapon {
             //play click
         }
     }
+    
     
     IEnumerator turnOffMuzzleFlash(){
         yield return 1;
