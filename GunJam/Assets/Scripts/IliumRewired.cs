@@ -96,7 +96,7 @@ public class IliumRewired : MonoBehaviour {
 		
 		    //ErrorCode err = ivrClient.GetGamePacket(ref packet);
             
-            GetSourceAxisValues(packet);
+          //  GetSourceAxisValues(packet);
            // GetSourceButtonValues(packet);
 
             // Set the current values directly in the controller
